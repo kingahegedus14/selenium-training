@@ -1,0 +1,181 @@
+{
+  "id": "6124c452-6240-469c-a889-159bd80a0d3a",
+  "version": "2.0",
+  "name": "Selenium News",
+  "url": "https://www.selenium.dev",
+  "tests": [{
+    "id": "18838115-12b3-418d-8a1d-c88443953cd5",
+    "name": "News",
+    "commands": [{
+      "id": "f394d9c7-bec1-4738-998b-0a91fa466540",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c952d270-a460-47c0-be93-d39468e1abf2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1086x1077",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a37d7ab-fb0c-42ad-9932-d7c978ca6079",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarDropdown",
+      "targets": [
+        ["id=navbarDropdown", "id"],
+        ["linkText=About", "linkText"],
+        ["css=.nav-item:nth-child(2) > #navbarDropdown", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[@id='navbarDropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='main_navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f0eed6-b620-42d2-baa9-3005c45bc82c",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarDropdown",
+      "targets": [
+        ["id=navbarDropdown", "id"],
+        ["linkText=About", "linkText"],
+        ["css=.nav-item:nth-child(2) > #navbarDropdown", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[@id='navbarDropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='main_navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2af71f-ef75-413e-9e16-be1dd97043d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Selenium",
+      "targets": [
+        ["linkText=About Selenium", "linkText"],
+        ["css=.show > .dropdown-item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'About Selenium')]", "xpath:link"],
+        ["xpath=//div[@id='main_navbar']/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07dd8b67-333d-4231-9a0c-62ddbc55e618",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) .selenium-button",
+      "targets": [
+        ["css=.row:nth-child(3) .selenium-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Read full story')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/history')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d1aa530-ee8f-4265-b1c7-07a2b452d2ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert-green",
+      "targets": [
+        ["css=.alert-green", "css:finder"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41dfcd70-aa31-47db-bb8f-ab98c91c5695",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert-green > .alert-heading",
+      "targets": [
+        ["css=.alert-green > .alert-heading", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'The story starts in 2004')]", "xpath:innerText"]
+      ],
+      "value": "The story starts in 2004"
+    }, {
+      "id": "ee422924-788e-4ea5-936b-8570784af0da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selenium-button",
+      "targets": [
+        ["css=.selenium-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn more')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/sponsors')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1528612b-feb9-4c05-a1ec-4c4f33be077c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.display-1",
+      "targets": [
+        ["css=.display-1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Sponsors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "65d5ba5c-a0fb-40aa-9d15-e959eeb23950",
+    "name": "Downloads",
+    "commands": [{
+      "id": "a5372faf-c4fb-4c77-9349-e4d4cc5196ce",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ff74741-5706-41f4-af11-8f7a5857f61b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1487x858",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efa73d8e-cb6f-4488-ac17-aeca54eeaa06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='main_navbar']/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b255024f-1311-4bec-a7af-601f5f88a604",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.row:nth-child(3) .card-title",
+      "targets": [
+        ["css=.row:nth-child(3) .card-title", "css:finder"],
+        ["xpath=//div[2]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Selenium Server (Grid)')]", "xpath:innerText"]
+      ],
+      "value": "Selenium Server (Grid)"
+    }]
+  }],
+  "suites": [{
+    "id": "49803bf7-8d91-4ff9-8874-0c6d296a613c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["18838115-12b3-418d-8a1d-c88443953cd5"]
+  }],
+  "urls": ["https://www.selenium.dev/"],
+  "plugins": []
+}
